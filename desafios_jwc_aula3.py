@@ -64,6 +64,16 @@ print("4.Salvar as alterações criando um ponto na história com uma mensagem: 
 
 # Código:
 
+capacidade_total_escola= 850
+alunos_matriculados= 523
+vagas_disponiveis= capacidade_total_escola - alunos_matriculados
+print("Vagas disponíveis:" ,vagas_disponiveis)
+#Segunda forma de colocar esse último print, utilizando o f-string  
+print(f"Vagas disponíveis: {vagas_disponiveis}")
+
+
+
+
 
 # ==============================================================================
 # DESAFIO 4: Calculando o Faturamento (Operador de Multiplicação *)
@@ -75,6 +85,11 @@ print("4.Salvar as alterações criando um ponto na história com uma mensagem: 
 # multiplique os dois valores e exiba o resultado para o cliente.
 
 # Código:
+
+mensalidade_padrao= 850.50
+novas_matriculas=42
+faturamento_projetado= mensalidade_padrao * novas_matriculas
+print(f"O resultado do faturamento projetado do mês seguinte é: {faturamento_projetado}")
 
 
 # ==============================================================================
@@ -88,6 +103,15 @@ print("4.Salvar as alterações criando um ponto na história com uma mensagem: 
 # (Note que no Python, a divisão normal sempre retorna um número quebrado - float).
 
 # Código:
+
+total_alunos_turma=45
+tamanho_grupo_ideal= 5
+qtd_de_grupos_formados= total_alunos_turma / tamanho_grupo_ideal
+print(f"A quantidade de grupos que serão formados será: {qtd_de_grupos_formados}")
+
+
+ 
+ 
 
 
 # ==============================================================================
